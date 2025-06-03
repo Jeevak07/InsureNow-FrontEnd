@@ -1,0 +1,49 @@
+.policy-container {
+    padding: 30px;
+  }
+  
+  .policy-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .policy-card {
+    flex: 1 1 calc(30% - 20px);
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .policy-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .policy-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .policy-card p {
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .apply-btn {
+    margin-top: 12px;
+    background-color: #0072ff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .apply-btn:hover {
+    background-color: #005ad1;
+  }
+  
