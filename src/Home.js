@@ -4,7 +4,7 @@ import './policyCard.css'
 
 function Home() {
   const location = useLocation();
-  const user = location.state?.user;
+  // const user = location.state?.user;
   const [policies,setPolicies] = useState([]);
 
   useEffect(() => {
