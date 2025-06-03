@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import './policyCard.css'
 
 function Home() {
-  const location = useLocation();
+  // const location = useLocation();
   // const user = location.state?.user;
   const [policies,setPolicies] = useState([]);
 
